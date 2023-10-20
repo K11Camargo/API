@@ -12,6 +12,19 @@ body{
     flex-direction: column;
 }
 
+header{
+    height: 14vh;        
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 71vh;
+    margin-top: 4%;
+}
+
+
 .barra{
     display: flex;
     align-items: end;
@@ -57,22 +70,13 @@ body{
     
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1700px;
-    margin-top: 4%;
-}
-
 .cinza{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #5F6678;
-    height: 75%;
     width: 90%;  
-    margin-top: 1%;
+    height: 100vh;
     
 }
 
@@ -80,17 +84,18 @@ main{
 
     display: flex;
     background-color: white;
-    height: 80%;
+    height: 88%;
     width: 100%;  
     margin: 1%;
-    margin-top: 6%;
+    margin-top: 4%;
 }
 
 /* parte esquerda */
 
 .esquerda{
+    background-color: #5F6678;
     width: 35%;
-    height: 95%;
+    height: 59vh;
     margin: 1%;
     flex-direction: column;
     display: grid;
@@ -117,12 +122,12 @@ main{
     height: 470px;
     position: absolute;
     left: 10%;
-    bottom: 8.5%;
+    bottom: 15%;
 }
 .informacoes{
         margin: 1.5%;
         width: 45%;
-        height: 120px;
+        height: 200px;
         background-color: #BDD0D6;
         word-wrap: break-word;
 
@@ -130,9 +135,8 @@ main{
 .informacoes2{
         margin: 1.5%;
         width: 45%;
-        height: 120px;
+        height: 200px;
         background-color: #BDD0D6;
-        justify-content: end;        
     }
 
 .baixo{
@@ -143,43 +147,20 @@ main{
     width: 900px;
     height: 470px;
     position: absolute;
-    bottom: -30%;
+    bottom: -50%;
 }
 .informacoes3{
         margin: 1.5%;
         width: 45%;
-        height: 120px;
+        height: 200px;
         background-color: #FBFEF7;
     }
 .informacoes4{
-        margin: 1.5%;
+        margin-top: 15px;
+        margin-left: 3%;
         width: 45%;
-        height: 120px;
+        height: 200px;
         background-color: #FBFEF7;
-        justify-content: end;        
-    }
-.ultimo{
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
-    width: 900px;
-    height: 470px;
-    position: absolute;
-    bottom: -32%;
-}
-.informacoes5{
-        margin: 1.5%;
-        width: 45%;
-        height: 120px;
-        background-color: #BDD0D6;
-    }
-.informacoes6{
-        margin: 1.5%;
-        width: 45%;
-        height: 120px;
-        background-color: #BDD0D6;
-        justify-content: end;        
     }
 
     /* parte direita */

@@ -9,7 +9,6 @@ body{
     background-image: url(img/clash\ royale\ fundo.png);
     display: flex;
     grid-template-rows: 100px 1fr 100px;
-
     flex-direction: column;
 }
 header{
@@ -45,12 +44,11 @@ main{
 }
 
 .redes{
-    position: absolute;
     word-spacing: 70px;
     padding-left: 300px;
     border-bottom: 50%;
     padding-top: 2%;
-    margin-left: 4%;
+    margin-left: 4%;    
 }
 
 
@@ -62,7 +60,7 @@ main{
 
 .ig:hover{
     transition: 1.2s;
-    color: yellow;
+    color: #ead520;
 }
 
 
@@ -75,7 +73,7 @@ main{
 
 .yt:hover{
     transition: 1.2s;
-    color: yellow;
+    color: #ead520;
 }
 
 .twt{
@@ -86,7 +84,7 @@ main{
 
 .twt:hover{
     transition: 1.2s;
-    color: yellow;
+    color: #ead520;
 }
 
 .face{
@@ -98,7 +96,7 @@ main{
 
 .face:hover{
     transition: 1.2s;
-    color: yellow;
+    color: #ead520;
 }
 
 .center{
@@ -129,7 +127,7 @@ main{
 
 .Pesquisar{
     background-color: #D9D9D9;
-    border-radius: 10%;
+    border-radius: 11%;
     height: 100px;
     width: 90%;
     margin-left: 1.5%;
