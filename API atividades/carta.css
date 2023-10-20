@@ -5,7 +5,7 @@
 
 }
 
-body{
+body{  
     background-image: url(img/clash\ royale\ fundo.png);
     display: flex;
     grid-template-rows: 100px 1fr 100px;
@@ -70,12 +70,11 @@ main{
     align-items: center;
     justify-content: center;
     background-color: #5F6678;
-    height: 100%;
+    height: 75%;
     width: 90%;  
     margin-top: 1%;
     
 }
-
 
 .branco{
 
@@ -87,9 +86,7 @@ main{
     margin-top: 6%;
 }
 
-
-/*arrumando isso*/
-
+/* parte esquerda */
 
 .esquerda{
     width: 35%;
@@ -97,26 +94,186 @@ main{
     margin: 1%;
     flex-direction: column;
     display: grid;
-    background-color: #5F6678;
 }
 .carta{
     background-image: url(./img/lenhador.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
+    top: 555px;
     left: 15%;
     width: 700px;
     height: 500px;
     margin: 1%;
 }
 
-.informacoes{
+.info{
     background-color: #D9D9D9;
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
     width: 900px;
-    height: 700px;
+    height: 470px;
     position: absolute;
-    left: 11%;
-    bottom: -5%;
+    left: 10%;
+    bottom: 8.5%;
 }
+.informacoes{
+        margin: 1.5%;
+        width: 45%;
+        height: 120px;
+        background-color: #BDD0D6;
+        word-wrap: break-word;
+
+    }
+.informacoes2{
+        margin: 1.5%;
+        width: 45%;
+        height: 120px;
+        background-color: #BDD0D6;
+        justify-content: end;        
+    }
+
+.baixo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 470px;
+    position: absolute;
+    bottom: -30%;
+}
+.informacoes3{
+        margin: 1.5%;
+        width: 45%;
+        height: 120px;
+        background-color: #FBFEF7;
+    }
+.informacoes4{
+        margin: 1.5%;
+        width: 45%;
+        height: 120px;
+        background-color: #FBFEF7;
+        justify-content: end;        
+    }
+.ultimo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 470px;
+    position: absolute;
+    bottom: -32%;
+}
+.informacoes5{
+        margin: 1.5%;
+        width: 45%;
+        height: 120px;
+        background-color: #BDD0D6;
+    }
+.informacoes6{
+        margin: 1.5%;
+        width: 45%;
+        height: 120px;
+        background-color: #BDD0D6;
+        justify-content: end;        
+    }
+
+    /* parte direita */
+
+    .direita{
+        width: 58%;
+        height: 95%;
+        margin: 1%;
+        flex-direction: column;
+        display: grid;
+    }
+
+    .verde{
+        background-color: #61BBB2;
+        width: 95%;
+        height: 200px;
+        border-radius: 40px;
+        
+    }
+    .ceu{
+        margin: 1%;
+        margin-left: 150px;
+        display: inline-flex;
+        color: #FBFEF7;
+        gap: 950px;
+    }
+
+    .ceu h1{
+        font-size: 50px; 
+    }    
+ 
+    .ceu2{
+        margin: 1%;
+        margin-left: 150px;
+        display: inline-flex;
+        color: #FBFEF7;
+    }
+
+    .ceu2 h1{
+        font-size: 40px; 
+        margin-left: 900px;
+    }    
+
+    :root{
+        --colorBack: #040305;
+        --colorPurple: #fff;
+        --colorGrey: rgb (87, 87, 87);
+    }
+    
+    .container span{
+        color: #ead520;
+        font-size: 50px;
+        animation-name: lendaria;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    .container span:nth-of-type(2){
+        animation-delay: 0.15s;
+    }
+    .container span:nth-of-type(3){
+        animation-delay: 0.45s;
+    }
+    .container span:nth-of-type(4){
+        animation-delay: 0.60s;
+    }
+    .container span:nth-of-type(5){
+        animation-delay: 0.75s;
+    }
+    .container span:nth-of-type(6){
+        animation-delay: 0.90s;
+    }
+    .container span:nth-of-type(7){
+        animation-delay: 1.05s;
+    }
+    .container span:nth-of-type(8){
+        animation-delay: 1.20s;
+    }
+    @keyframes lendaria {
+        0%{
+            color: #fff;
+            text-shadow: 0 0 12px var(--colorPurple),
+            0 0 50px var(--colorPurple),
+            0 0 100px var(--colorPurple);
+        }
+
+    }
+
+    .TextosCartas{
+        font-size: 50px;
+        height: 450px;
+        width: 900px;  
+        position: relative;
+        left: 500px;
+        top: -150px;
+    }
